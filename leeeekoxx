@@ -7,9 +7,8 @@ getgenv(0).clear = rconsoleclear or function() end
 
 getgenv(0).printwelcome = function()
     rconsoleprint("@@LIGHT_RED@@")
- rconsoleprint(" __   __  _______  _______  __    _  _______  _     _  _______  ______    _______ \n")
+    rconsoleprint(" __   __  _______  _______  __    _  _______  _     _  _______  ______    _______ \n")
     rconsoleprint("|  |_|  ||       ||       ||  |  | ||       || | _ | ||   _   ||    _ |  |       |\n")
-    rconsoleprint("|       ||    ___||    ___||   |_| ||   _   || || || ||  |_|  ||   | ||  |    ___|\n")
     rconsoleprint("|       ||   |___ |   |___ |       ||  | |  ||       ||       ||   |_||_ |   |___ \n")
     rconsoleprint("|       ||    ___||    ___||  _    ||  |_|  ||       ||       ||    __  ||    ___|\n")
     rconsoleprint("| ||_|| ||   |___ |   |___ | | |   ||       ||   _   ||   _   ||   |  | ||   |___ \n")
